@@ -25,6 +25,11 @@
                     "$ref": "https://ns.adobe.com/xdm/data/datasource",
                     "description": "Globally unique identification of a data source."
                 },
+                "xdm:ACPDatasetID": {
+                   "title": "ACP Dataset ID",
+                    "$ref": "https://ns.adobe.com/xdm/data/acpdatasetid",
+                    "description": "ID for the ACP Dataset the event belongs to."
+                },
                 "xdm:timestamp": {
                     "title": "Timestamp",
                     "type": "string",
